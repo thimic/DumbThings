@@ -26,10 +26,12 @@
       "macaddress": "286D97*"
     }
   ],
-  "documentation": "https://www.home-assistant.io/integrations/smartthings",
+  "documentation": "https://github.com/thimic/dumbthings",
   "integration_type": "hub",
   "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/thimic/dumbthings/issues",
   "loggers": ["pysmartthings"],
   "quality_scale": "bronze",
-  "requirements": ["pysmartthings==3.5.1"]
+  "requirements": ["pysmartthings==3.5.1"],
+  "version": "0.0.1"
 }
