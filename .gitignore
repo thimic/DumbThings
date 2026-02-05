@@ -18,6 +18,7 @@ __pycache__
 coverage.xml
 .ruff_cache
 .DS_Store
+.idea
 
 # Home Assistant configuration
 config/*
