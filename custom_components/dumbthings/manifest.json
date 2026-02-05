@@ -1,0 +1,17 @@
+{
+  "domain": "dumbthings",
+  "name": "DumbThings",
+  "codeowners": [
+    "@thimic"
+  ],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/thimic/dumbthings",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/thimic/dumbthings/issues",
+  "requirements": [
+    "requests>=2.21.0",
+    "xmltodict>=0.13.0"
+  ],
+  "version": "0.0.1"
+}
