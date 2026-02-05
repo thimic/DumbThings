@@ -1,17 +1,35 @@
 {
   "domain": "dumbthings",
   "name": "DumbThings",
-  "codeowners": [
-    "@thimic"
-  ],
+  "codeowners": ["@thimic"],
   "config_flow": true,
-  "dependencies": [],
-  "documentation": "https://github.com/thimic/dumbthings",
-  "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/thimic/dumbthings/issues",
-  "requirements": [
-    "requests>=2.21.0",
-    "xmltodict>=0.13.0"
+  "dependencies": ["application_credentials"],
+  "dhcp": [
+    {
+      "hostname": "st*",
+      "macaddress": "24FD5B*"
+    },
+    {
+      "hostname": "smartthings*",
+      "macaddress": "24FD5B*"
+    },
+    {
+      "hostname": "hub*",
+      "macaddress": "24FD5B*"
+    },
+    {
+      "hostname": "hub*",
+      "macaddress": "D052A8*"
+    },
+    {
+      "hostname": "hub*",
+      "macaddress": "286D97*"
+    }
   ],
-  "version": "0.0.3"
+  "documentation": "https://www.home-assistant.io/integrations/smartthings",
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "loggers": ["pysmartthings"],
+  "quality_scale": "bronze",
+  "requirements": ["pysmartthings==3.5.1"]
 }
